@@ -1,0 +1,29 @@
+*{
+  color: white;
+}
+.App{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(36,37,42);
+    width: 95%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+#compo{
+   display: flex;
+}
+#compo>p{
+  margin-left: 30px;
+}
+
+button{
+   width: 120px;
+   height: 40px;
+   color: white;
+   background-color: rgb(0,134,166);
+   border: none;
+   font-size: 20px;
+   border-radius: 30px;
+}
