@@ -1,11 +1,19 @@
 import { useState } from 'react';
 
 export const Inventory = () => {
+<<<<<<< HEAD
 	const [inv, setInv] = useState({
 		books: Math.floor(Math.random() * 100),
 		notebooks: Math.floor(Math.random() * 100),
 		pens: Math.floor(Math.random() * 100),
 		inkpens: Math.floor(Math.random() * 100),
+=======
+    const [inv, setInv] = useState({
+       books: Math.floor(Math.random() * 100),
+       notebooks: Math.floor(Math.random() * 100),
+       pens: Math.floor(Math.random() * 100),
+       inkpens: Math.floor(Math.random() * 100),
+>>>>>>> 47a01ea8d336055135113361dbe540d91624b171
 	});
 	// Create add and remove functions here that changes the
 	// state.
