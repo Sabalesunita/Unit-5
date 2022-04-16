@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+*{
+  background-color: rgb(206,206,206);
+}
+input{
+  width: 400px;
+  padding: 15px;
+  border: none;
+  font-size: 30px;
+  background-color: white;
+  border-radius: 9px;
+}
+.box{
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+.plus{
+  width: 50px;
+  padding: 15px;
+  border: none;
+  background-color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+}
+.h1{
+   width: 500px;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.h1>button{
+   width: auto;
+   padding: 15px;
+   font-size: 25px;
+   background-color: white;
+   border-radius: 8px;
+   border: none;
+}
+
