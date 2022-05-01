@@ -1,0 +1,11 @@
+.main-nav{
+    display:flex;
+    /* border:2px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    width:112%;
+    background: #002e25;
+    color: white;
+    padding: 10px 0;
+      margin: auto;
+}
